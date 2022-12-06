@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Igor\\.nuget\\packages\\": {}
+    "C:\\Users\\Киномакс\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\DOC\\GeekBrains\\С#\\DZ_C#_3\\Task19\\Task19.csproj",
+      "projectUniqueName": "C:\\GitL1\\C#\\DZ_C-_3\\DZ_C-_3\\Task19\\Task19.csproj",
       "projectName": "Task19",
-      "projectPath": "E:\\DOC\\GeekBrains\\С#\\DZ_C#_3\\Task19\\Task19.csproj",
-      "packagesPath": "C:\\Users\\Igor\\.nuget\\packages\\",
-      "outputPath": "E:\\DOC\\GeekBrains\\С#\\DZ_C#_3\\Task19\\obj\\",
+      "projectPath": "C:\\GitL1\\C#\\DZ_C-_3\\DZ_C-_3\\Task19\\Task19.csproj",
+      "packagesPath": "C:\\Users\\Киномакс\\.nuget\\packages\\",
+      "outputPath": "C:\\GitL1\\C#\\DZ_C-_3\\DZ_C-_3\\Task19\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Igor\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Киномакс\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"

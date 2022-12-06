@@ -5,23 +5,28 @@
 // 12821 -> да
 // 23432 -> да
 
-int num = 0;
+int num = 0; 
 while (num<10000 ^ num>=100000)
 {
 Console.WriteLine("Введите пятизначное число:");
 num = Convert.ToInt32(Console.ReadLine());
 }
 
-int i = 0;
-bool pal_fl = true;
+int temp_num = num; // Временное число, получаемое отбрасыванием крайних цифр
+int num_length = 5; // Количество знаков числа temp_num
+int digital1, digital2; // Первая и последняя цифра числа temp_num
+bool pal_fl = true; // Признак палиндрома
 
-while (i<=5 && pal_fl)
+while (num_length > 1 && pal_fl)
     {
-        Console.WriteLine($"{num/Convert.ToInt32(Math.Pow(10,4-i))} - {num%10}");
-        if (num%10 != num/Convert.ToInt32(Math.Pow(10,4-i))) pal_fl = false;
-        i++;
-    }
+        digital1 = temp_num/Convert.ToInt32(Math.Pow(10,num_length-1));
+        digital2 = temp_num%10;
 
+        if (temp_num%10 != temp_num/Convert.ToInt32(Math.Pow(10,num_length-1))) pal_fl = false;
+        
+        temp_num = (temp_num - (digital1*Convert.ToInt32(Math.Pow(10,num_length-1))))/10;
+        num_length = num_length - 2;
+    }
 
 if (pal_fl) 
     Console.WriteLine($"Число {num} - палиндром");
